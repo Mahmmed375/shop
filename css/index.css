@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:root {
+  --font-size: tahoma;
+  --color: #317daf75;
+  --color2:#fff;
+}
+
+body {
+    background-color: #0e75c3ab;
+}
+.content {
+  color: #fff;
+  position: relative;
+  margin: 20px;
+}
+.header h1 {
+  display: inline-block;
+}
+.header h1 a {
+  text-decoration: none;
+  color: #fff;
+  font-family: tahoma;
+  word-spacing: 10px;
+  margin-bottom: 20px;
+  font-size: 60px;
+}
+
+.search{
+  text-align: center;
+}
+.search input[type="search"] {
+  width: 250px;
+  height: 30px;
+  border-radius:0px;
+  padding: 5px;
+  margin-left: 0px;
+  opacity: 0.7;
+  margin-top: 2.5px;
+}
+
+.search button {
+  font-size: 17px;
+  width: 60px;
+  height: 33px;
+  margin-top:-30.3px;
+  margin-left: -255px;
+  position: absolute;
+  border-radius: 0px 10px 10px 0px;
+  text-align: center;
+  font-weight: bold;
+  background-color:cadetblue;
+  color: aliceblue;
+  border: none;
+    background-color: var(--color);
+    opacity: 0.7
+        
+}
+.search button:hover{
+    opacity: 1;
+}
+.h_img{
+     float: right;
+    position: relative;
+    margin-top: -47px;
+    background-color: var(--color2);
+    border-radius: 50%;
+    color: var(--color);
+}
+.header {
+  /*background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7));*/
+  background-color:var(--color);
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+    height: 70px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.body {
+  margin:10px 20px;
+}
+
+.body .pro1 .pro{
+  display: inline-block;
+  margin:10px;
+  width: 215px;
+  height: 260px;
+  background-color:#317daf75;
+  border-radius: 10px;
+  position: relative
+      
+}
+.body .pro1 .pro img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.body .pro1 .pro h2,.body .pro1 .pro p{
+  color: var(--color2);
+  padding-left:15px ;
+  width: 100%;
+  height: 10%;
+  position: absolute;
+  overflow:hidden;
+  
+
+
+}
+.body .pro1 .pro h2{
+    margin-top: -90px;
+    height: 15%;
+
+}
+.body .pro1 .pro p{
+ 
+  margin-top: -50px;
+    height: 17%;
+    
+
+}
+
+.na .h{
+  margin-top: -65px;
+  position:relative;
+  width: 100px
+}
+
+.na .h span{
+  background-color:var(--color2);
+  width: 80px;
+  height: 2px;
+  margin: 6px;
+  display: block;
+ 
+}
+
+.na .h #width,#width2{
+    width: 60px
+}
+.fil{
+  width: 80px ;
+}
+
+.na .ul{
+    width: 180px;
+    position: absolute;
+   background-color:var(--color);
+    border-radius:5px;
+    margin-top: 30px;
+    z-index: 100;
+    display: block;
+    
+}
+.di{
+  display: none;
+ 
+}
+.na ul::before{
+    content: "";
+    border-width: 20px;
+    border-color:transparent transparent var(--color) transparent;
+    border-style: solid;
+    margin-top: -40px;
+    margin-left: -85px;
+    position: absolute;
+    
+    
+}
+.na ul li{
+    list-style: none;
+    text-align: start;
+    margin-left: -20px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 5px;
+    opacity: 0.7;
+
+}
+.na ul li:hover{
+    padding-left: 15px;
+    opacity: 1
+}
+.na ul li a{
+    text-decoration: none;
+    color: var(--color2);
+    font-size: 20px;
+
+        
+}
+
+
+
+
+
+
+
+
+
+
+.pro2{
+    border: 5px solid var(--color2);
+    border-radius: 10px;
+    padding: 5px;
+    background-color: var(--color);
+    margin: 10px;
+/*        display: inline*/
+}
+.carousel-inner{
+    height:400px;
+    display: block;
+    border-radius: 10px;
+    border: 5px solid var(--color2);
+}
+.pro3 .carousel-inner{
+    height: 200px;
+    border-color:var(--color2);
+}
+.pro3 {
+padding: 5px;
+    margin: 5px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  background-color:var(--color);
+  color: var(--color2);
+  padding: 10px 10px 0px 10px;
+    margin-top: 50px
+}
+
+.fas{
+    width: 3px;
+    height: 110px;
+    background-color: #fff;
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 370px
+   
+}
+.end_lf{
+    float: right;
+    position: relative;
+    margin-top: -120px;
+    margin-right: 170px
+}
+.end{
+      text-align: center;
+    border-top: 1px solid #ccc;
+    margin-bottom: 0px
+}
+
+footer img{
+    margin-right: 10px;
+    width: 25px;
+    height: 25px
+}
+footer a{
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    color:var(--color2);
+
+}
