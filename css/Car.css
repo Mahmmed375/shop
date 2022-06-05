@@ -6,14 +6,6 @@
 }
 :root {
   --font-size: tahoma;
-<<<<<<< HEAD
-  --color: #317daf75;
-  --color2:#fff;
-}
-
-body {
-    background-color: #0e75c3ab;
-=======
   --color: #fff;
   --color2: green;
 }
@@ -21,7 +13,6 @@ body {
 body {
   background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
     url(../img/portfolio/backgrounds/01.png);
->>>>>>> dc9f20f5918b6d6d7e1e7a3bc2e9c0bc39b00295
 }
 .content {
   color: #fff;
@@ -50,60 +41,30 @@ body {
   padding: 5px;
   margin-left: 0px;
   opacity: 0.7;
-<<<<<<< HEAD
-  margin-top: 2.5px;
-=======
   margin-top: 1px
->>>>>>> dc9f20f5918b6d6d7e1e7a3bc2e9c0bc39b00295
 }
 
 .search button {
   font-size: 17px;
   width: 60px;
   height: 33px;
-<<<<<<< HEAD
-  margin-top:-30.3px;
-=======
   margin-top:-31.3px;
->>>>>>> dc9f20f5918b6d6d7e1e7a3bc2e9c0bc39b00295
   margin-left: -255px;
   position: absolute;
   border-radius: 0px 10px 10px 0px;
   text-align: center;
   font-weight: bold;
   background-color:cadetblue;
-<<<<<<< HEAD
-  color: aliceblue;
-  border: none;
-    background-color: var(--color);
-    opacity: 0.7
-        
-}
-.search button:hover{
-    opacity: 1;
-=======
     color: aliceblue
->>>>>>> dc9f20f5918b6d6d7e1e7a3bc2e9c0bc39b00295
 }
 .h_img{
      float: right;
     position: relative;
-<<<<<<< HEAD
-    margin-top: -47px;
-    background-color: var(--color2);
-    border-radius: 50%;
-    color: var(--color);
-}
-.header {
-  /*background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7));*/
-  background-color:var(--color);
-=======
     margin-top: -43px;
 }
 .header {
   background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7));
   color: var(--color);
->>>>>>> dc9f20f5918b6d6d7e1e7a3bc2e9c0bc39b00295
   padding-bottom: 20px;
   padding-left: 10px;
   padding-right: 10px;
@@ -136,44 +97,6 @@ body {
   margin:10px;
   width: 215px;
   height: 260px;
-<<<<<<< HEAD
-  background-color:#317daf75;
-  border-radius: 10px;
-  position: relative
-      
-}
-.body .pro1 .pro img{
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-}
-.body .pro1 .pro h2,.body .pro1 .pro p{
-  color: var(--color2);
-  padding-left:15px ;
-  width: 100%;
-  height: 10%;
-  position: absolute;
-  overflow:hidden;
-  
-
-
-}
-.body .pro1 .pro h2{
-    margin-top: -90px;
-    height: 15%;
-
-}
-.body .pro1 .pro p{
- 
-  margin-top: -50px;
-    height: 17%;
-    
-
-}
-
-.na .h{
-  margin-top: -65px;
-=======
   background-color: green;
   border-radius: 10px
 }
@@ -193,19 +116,15 @@ body {
   overflow:hidden
 }
 
+
 .na .h{
   margin-top: -70px;
->>>>>>> dc9f20f5918b6d6d7e1e7a3bc2e9c0bc39b00295
   position:relative;
   width: 100px
 }
 
 .na .h span{
-<<<<<<< HEAD
-  background-color:var(--color2);
-=======
   background-color:aquamarine;
->>>>>>> dc9f20f5918b6d6d7e1e7a3bc2e9c0bc39b00295
   width: 80px;
   height: 2px;
   margin: 6px;
@@ -241,8 +160,7 @@ body {
     border-style: solid;
     margin-top: -40px;
     margin-left: -85px;
-    position: absolute;
-    
+    position: absolute
     
 }
 .na ul li{
@@ -250,13 +168,10 @@ body {
     text-align: start;
     margin-left: -20px;
     border-bottom: 1px solid #eee;
-    margin-bottom: 5px;
-    opacity: 0.7;
-
+    margin-bottom: 5px
 }
 .na ul li:hover{
-    padding-left: 15px;
-    opacity: 1
+    padding-left: 15px
 }
 .na ul li a{
     text-decoration: none;
@@ -276,47 +191,29 @@ body {
 
 
 .pro2{
-<<<<<<< HEAD
-    border: 5px solid var(--color2);
-    border-radius: 10px;
-    padding: 5px;
-    background-color: var(--color);
-=======
     border: 5px solid #eee;
     border-radius: 10px;
     padding: 10px;
     background-color: antiquewhite;
->>>>>>> dc9f20f5918b6d6d7e1e7a3bc2e9c0bc39b00295
-    margin: 10px;
+    margin-top:20px;
+    margin-left: 5px;
+    margin-right: 5px;
+
 /*        display: inline*/
 }
 .carousel-inner{
     height:400px;
     display: block;
     border-radius: 10px;
-<<<<<<< HEAD
-    border: 5px solid var(--color2);
-}
-.pro3 .carousel-inner{
-    height: 200px;
-    border-color:var(--color2);
-}
-.pro3 {
-padding: 5px;
-    margin: 5px
-=======
     border: 5px solid #000;
 }
 .pro3 .carousel-inner{
-    height: 150px;
+    height: 100px;
     border-color: greenyellow;
 }
 .pro3 {
 
->>>>>>> dc9f20f5918b6d6d7e1e7a3bc2e9c0bc39b00295
 }
-
-
 
 
 
@@ -329,17 +226,11 @@ padding: 5px;
 
 
 footer{
-<<<<<<< HEAD
-  background-color:var(--color);
-  color: var(--color2);
-=======
   background-image: linear-gradient(rgb(0, 0, 0, 1), rgb(0, 0, 0, 1));
   color: var(--color);
->>>>>>> dc9f20f5918b6d6d7e1e7a3bc2e9c0bc39b00295
   padding: 10px 10px 0px 10px;
     margin-top: 50px
 }
-
 .fas{
     width: 3px;
     height: 110px;
@@ -370,10 +261,6 @@ footer a{
     text-decoration: none;
     display: inline-block;
     position: relative;
-<<<<<<< HEAD
-    color:var(--color2);
-=======
     color: #fff
->>>>>>> dc9f20f5918b6d6d7e1e7a3bc2e9c0bc39b00295
 
 }
