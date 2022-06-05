@@ -30,33 +30,6 @@ body {
   margin-bottom: 20px;
   font-size: 60px;
 }
-
-.search{
-  text-align: center;
-}
-.search input[type="search"] {
-  width: 250px;
-  height: 30px;
-  border-radius:0px;
-  padding: 5px;
-  margin-left: 0px;
-  opacity: 0.7;
-  margin-top: 1px
-}
-
-.search button {
-  font-size: 17px;
-  width: 60px;
-  height: 33px;
-  margin-top:-31.3px;
-  margin-left: -255px;
-  position: absolute;
-  border-radius: 0px 10px 10px 0px;
-  text-align: center;
-  font-weight: bold;
-  background-color:cadetblue;
-    color: aliceblue
-}
 .h_img{
      float: right;
     position: relative;
@@ -86,35 +59,6 @@ body {
 
 
 
-
-
-.body {
-  margin:10px 20px;
-}
-
-.body .pro1 .pro{
-  display: inline-block;
-  margin:10px;
-  width: 215px;
-  height: 260px;
-  background-color: green;
-  border-radius: 10px
-}
-.body .pro1 .pro img{
-  width: 100%;
-  height: 70%;
-  border-radius: 10px 10px 0px 0px;
-}
-.body .pro1 .pro h2,p{
-  color: #fff;
-  padding-left:15px ;
-  width: 100%;
-  height: 10%
-
-}
-.body .pro1 .pro p{
-  overflow:hidden
-}
 
 .na .h{
   margin-top: -70px;
@@ -188,37 +132,20 @@ body {
 
 
 
-
-.pro2{
-    border: 5px solid #eee;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: antiquewhite;
-    margin-top:20px;
-    margin-left: 5px;
-    margin-right: 5px;
-
-/*        display: inline*/
+form input{
+	width: 600px;
+    font-size: 40px;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: azure;
 }
-.carousel-inner{
-    height:400px;
-    display: block;
-    border-radius: 10px;
-    border: 5px solid #000;
+form label{
+    color: green;
+    font-size: 50px;
+    border-bottom: 2px solid #fff;
+    margin: 20px
 }
-.pro3 .carousel-inner{
-    height: 100px;
-    border-color: greenyellow;
-}
-.pro3 {
-
-}
-
-
-
-
-
-
 
 
 
@@ -262,6 +189,6 @@ footer a{
     text-decoration: none;
     display: inline-block;
     position: relative;
-    color: #fff;
+    color: #fff
 
 }

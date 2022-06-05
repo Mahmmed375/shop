@@ -1,5 +1,24 @@
-let butt = document.querySelector("button");
+let pro2 = document.querySelectorAll(".pro1");
+pro2.forEach( ( div ) => {
 
-butt.onclick = function () {
-    window.open("../html/sall.html")
-}
+    div.addEventListener( "click", ( e ) => {
+
+  window.open("../html/info prodect.html","_self")
+
+    } )
+} )
+
+
+
+
+
+
+let pro3 = document.querySelectorAll(".carousel-inner");
+pro3.forEach( ( div ) => {
+
+    div.addEventListener( "click", ( e ) => {
+
+  window.open("../html/info prodect.html","_self")
+
+    } )
+} )
